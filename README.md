@@ -16,6 +16,6 @@ Don’t forget to push your header file
 All your header files should be include guarded
 
 
-AUTHORS:
+		AUTHORS:
 Joseph kakai <https://github.com/wantonraven>
 Purity Chege <https://github.com/Khaikhai01>
