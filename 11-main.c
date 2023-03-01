@@ -20,10 +20,10 @@ int main(void)
     binary_tree_print(root);
 
     size = binary_tree_size(root);
-    printf("Size of %d: %lu\n", root->n, size);
+    printf("Size of %d: %u\n", root->n, size);
     size = binary_tree_size(root->right);
-    printf("Size of %d: %lu\n", root->right->n, size);
+    printf("Size of %d: %u\n", root->right->n, size);
     size = binary_tree_size(root->left->right);
-    printf("Size of %d: %lu\n", root->left->right->n, size);
+    printf("Size of %d: %u\n", root->left->right->n, size);
     return (0);
 }
