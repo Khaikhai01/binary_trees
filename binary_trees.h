@@ -38,4 +38,5 @@ int max(int ileft, int right);
 size_t binary_tree_depth(const binary_tree_t *tree);
 size_t binary_tree_leaves(const binary_tree_t *tree);
 size_t binary_tree_size(binary_tree_t *tree);
+size_t binary_tree_leaves(const binary_tree_t *tree);
 #endif
