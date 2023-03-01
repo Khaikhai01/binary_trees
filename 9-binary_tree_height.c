@@ -11,7 +11,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 	size_t heightleft = 0;
 	size_t heightright = 0;
 	size_t treeheight = 0;
-	
+
 	if (tree == NULL || (!tree->left && !tree->right))
 		return (0);
 
@@ -23,7 +23,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 }
 
 /**
- * max; returns the maximuim integer
+ * max - returns the maximum integer
  * @left: the first integer to use
  * @right: the second integer to use
  *
