@@ -22,6 +22,13 @@ size_t binary_tree_height(const binary_tree_t *tree)
 	return (treeheight);
 }
 
+/**
+ * max; returns the maximuim integer
+ * @left: the first integer to use
+ * @right: the second integer to use
+ *
+ * Return: the max interger
+ */
 int max(int left, int right)
 {
 	if (left > right)
