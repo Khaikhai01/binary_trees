@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * max - finds maximum height between two paths in a tree
+ * max - finds maximum height between two paths in a tree.
  * @left: length of left path
  * @right: length of right path
  *
