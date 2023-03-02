@@ -34,8 +34,6 @@ size_t binary_tree_height(const binary_tree_t *tree)
         else
                 max = left;
         return (max + 1);	
-
-	return (max + 1);
 }
 /**
  * binary_tree_balance - Calculate the balance factor of a tree
