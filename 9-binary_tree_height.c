@@ -29,7 +29,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
  *
  * Return: the max interger
  */
-int max(int left, int right)
+size_t max(size_t left, size_t right)
 {
 	if (left > right)
 	{
